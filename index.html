@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Tailwind</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Hello</h1>
+    <header class="bg-[#FFFBF0]">
+        <!-- nav container -->
+        <section class="w-10/12 mx-auto py-10 flex justify-between items-center">
+            <div>
+                <img class="w-2/4" src="./icons/logo.png" alt="">
+            </div>
+            <div class="flex">
+                <a class="text-[#3E3E3E] text-xl ml-10 font-medium" href="">Home</a>
+                <a class="text-[#3E3E3E] text-xl ml-10 font-medium" href="">About</a>
+                <a class="text-[#3E3E3E] text-xl ml-10 font-medium" href="">Shop</a>
+                <a class="text-[#3E3E3E] text-xl ml-10 font-medium" href="">Contact</a>
+            </div>
+        </section>
+        <!-- header main -->
+        <section class="w-10/12 mx-auto flex justify-between items-center pb-16">
+            <div>
+                <h1 class="text-7xl font-bold uppercase"><span class="text-[#FABE4C]">Be the Penguins</span> <br><span
+                        class="text-[#3E3E3E]">of Winter</span></h1>
+                <p class="text-[#3E3E3E] my-6">Distinctive shop header with vibrant design, showcasing quality products,
+                    ensuring a memorable shopping experience with style and reliability.</p>
+                <button class="bg-[#85A019] text-white py-2 px-7 text-xl rounded-2xl uppercase">Buy Now</button>
+            </div>
+            <div class="w-2/3">
+                <img src="./icons/bg2.png" alt="">
+            </div>
+        </section>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
