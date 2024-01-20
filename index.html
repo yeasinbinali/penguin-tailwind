@@ -28,26 +28,26 @@
         <!-- nav container -->
         <section class="w-10/12 mx-auto py-10 flex justify-between items-center">
             <div>
-                <img class="w-2/4" src="./icons/logo.png" alt="">
+                <img class="w-1/2 md:w-2/4" src="./icons/logo.png" alt="">
             </div>
             <div class="flex">
-                <a class="text-[#3E3E3E] text-xl ml-10 font-medium" href="">Home</a>
-                <a class="text-[#3E3E3E] text-xl ml-10 font-medium" href="">About</a>
-                <a class="text-[#3E3E3E] text-xl ml-10 font-medium" href="">Shop</a>
-                <a class="text-[#3E3E3E] text-xl ml-10 font-medium" href="">Contact</a>
-
+                <a class="text-[#3E3E3E] text-xl ml-10 font-medium hidden md:block" href="">Home</a>
+                <a class="text-[#3E3E3E] text-xl ml-10 font-medium hidden md:block" href="">About</a>
+                <a class="text-[#3E3E3E] text-xl ml-10 font-medium hidden md:block" href="">Shop</a>
+                <a class="text-[#3E3E3E] text-xl ml-10 font-medium hidden md:block" href="">Contact</a>
+                <i class="fa fa-bars block md:hidden"></i>
             </div>
         </section>
         <!-- header main -->
-        <section class="w-10/12 mx-auto flex justify-between items-center pb-16">
+        <section class="w-10/12 mx-auto flex-row md:flex justify-between items-center pb-16">
             <div>
-                <h1 class="text-7xl font-bold uppercase"><span class="text-[#ffa600]">Be the Penguins</span> <br><span
+                <h1 class="text-4xl md:text-5xl lg:text-7xl font-bold uppercase"><span class="text-[#ffa600]">Be the Penguins</span> <br><span
                         class="text-[#3E3E3E]">of Winter</span></h1>
                 <p class="text-[#3E3E3E] my-6">Distinctive shop header with vibrant design, showcasing quality products,
                     ensuring a memorable shopping experience with style and reliability.</p>
                 <button class="bg-[#85A019] text-white py-2 px-7 text-xl rounded-2xl uppercase">Buy Now</button>
             </div>
-            <div class="w-2/3">
+            <div class="w-2/3 mx-auto mt-5 md:mt-0">
                 <img src="./icons/bg2.png" alt="">
             </div>
         </section>
@@ -56,7 +56,7 @@
         <!-- Woman container -->
         <section>
             <h1 class="text-5xl mb-10 font-bold text-[#3E3E3E]">Woman Jacket</h1>
-            <section class="grid grid-cols-3 gap-10">
+            <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-10">
                 <div class="border-solid border-2 rounded-2xl">
                     <div class="p-5">
                         <img class="bg-[#F1F1F1] p-5 rounded-2xl" src="./images/jacket-1.png" alt="">
@@ -102,7 +102,7 @@
         <!-- Man container -->
         <section class="my-20">
             <h1 class="text-5xl mb-10 font-bold text-[#3E3E3E]">Man Jacket</h1>
-            <section class="grid grid-cols-3 gap-10">
+            <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 gap-10">
                 <div class="border-solid border-2 rounded-2xl">
                     <div class="p-5">
                         <img class="bg-[#F1F1F1] p-5 rounded-2xl" src="./images/jacket-4.png" alt="">
@@ -146,10 +146,10 @@
         </section>
 
         <!-- feature container -->
-        <section class="my-20 flex justify-between items-center">
-            <div class="mr-10">
+        <section class="my-20 flex-row lg:flex justify-between items-center">
+            <div class="mr-0 lg:mr-10">
                 <div class="flex items-center p-5 bg-slate-50 rounded-lg mb-4">
-                    <div class="w-16 h-16">
+                    <div class="w-20 h-20 md:w-16 md:h-16">
                         <img src="./icons/house.png" alt="">
                     </div>
                     <div class="ml-5">
@@ -176,7 +176,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-1/2">
+            <div class="w-full lg:w-1/2 mx-auto mt-10 lg:mt-0">
                 <img src="./images/shopping.png" alt="">
             </div>
         </section>
