@@ -5,7 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Tailwind</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/7522ad2aa7.js" crossorigin="anonymous"></script>
+    <!-- tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./icons/favicon.png" type="image/x-icon">
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,6 +23,7 @@
 </head>
 
 <body>
+    <!-- header container -->
     <header class="bg-[#FFFBF0]">
         <!-- nav container -->
         <section class="w-10/12 mx-auto py-10 flex justify-between items-center">
@@ -29,6 +35,7 @@
                 <a class="text-[#3E3E3E] text-xl ml-10 font-medium" href="">About</a>
                 <a class="text-[#3E3E3E] text-xl ml-10 font-medium" href="">Shop</a>
                 <a class="text-[#3E3E3E] text-xl ml-10 font-medium" href="">Contact</a>
+
             </div>
         </section>
         <!-- header main -->
@@ -137,9 +144,46 @@
                 </div>
             </section>
         </section>
-    </main>
-    <footer>
 
+        <!-- feature container -->
+        <section class="my-20 flex justify-between items-center">
+            <div class="mr-10">
+                <div class="flex items-center p-5 bg-slate-50 rounded-lg mb-4">
+                    <div class="w-16 h-16">
+                        <img src="./icons/house.png" alt="">
+                    </div>
+                    <div class="ml-5">
+                        <h5 class="text-2xl font-bold">Find the Perfect Fit</h5>
+                        <p class="text-lg">Everybody is different, which is why we offer styles for every body.</p>
+                    </div>
+                </div>
+                <div class="flex items-center p-5 bg-slate-50 mb-4">
+                    <div class="w-16 h-16">
+                        <img src="./icons/box.png" alt="">
+                    </div>
+                    <div class="ml-5">
+                        <h5 class="text-2xl font-bold">Free Exchanges</h5>
+                        <p class="text-lg">One of the many reasons you can shop with peace of mind.</p>
+                    </div>
+                </div>
+                <div class="flex items-center p-5 bg-slate-50">
+                    <div class="w-16 h-16">
+                        <img src="./icons/question.png" alt="">
+                    </div>
+                    <div class="ml-5">
+                        <h5 class="text-2xl font-bold">Contact Our Seller</h5>
+                        <p class="text-lg">They are here to help you. That's quite literally what we pay them for.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-1/2">
+                <img src="./images/shopping.png" alt="">
+            </div>
+        </section>
+    </main>
+    <!-- footer container -->
+    <footer class="my-20 text-center">
+        <p class="text-lg">&copy; 2030 - Penguin Fashion</p>
     </footer>
 </body>
 
